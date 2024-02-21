@@ -26,6 +26,13 @@ namespace VariousTypes
             decimal damage = 5.234m;
 
             Console.WriteLine($"{health} {distance} {damage}");
+
+            bool condition_1 = 10 > 2;
+            Console.WriteLine(condition_1);
+
+            bool condition_2 = 10 < 2;
+            Console.WriteLine(condition_2);
+            
         }
     }
 }
