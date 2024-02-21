@@ -18,6 +18,14 @@ namespace VariousTypes
             char euro = '\u20AC';
 
             Console.WriteLine($"{sinal_certo} {estrela} {euro}");
+
+            float health = 100f;
+
+            double distance = 54.6;
+
+            decimal damage = 5.234m;
+
+            Console.WriteLine($"{health} {distance} {damage}");
         }
     }
 }
