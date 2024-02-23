@@ -18,14 +18,14 @@ namespace DecimalHexa
             int dec_4 = int.Parse(user_4);
 
 
-            string hex_1 = $"{dec_1,6:x}";
-            string hex_2 = $"{dec_2,6:x}";
-            string hex_3 = $"{dec_3,6:x}";
-            string hex_4 = $"{dec_4,6:x}";
-            Console.WriteLine($"   {user_1}{hex_1}");
-            Console.WriteLine($"   {user_2}{hex_2}");
-            Console.WriteLine($"   {user_3}{hex_3}");
-            Console.WriteLine($"   {user_4}{hex_4}");
+            string hex_1 = $"{dec_1:x}";
+            string hex_2 = $"{dec_2:x}";
+            string hex_3 = $"{dec_3:x}";
+            string hex_4 = $"{dec_4:x}";
+            Console.WriteLine($"{user_1,6}  {hex_1,6}");
+            Console.WriteLine($"{user_2,6}  {hex_2,6}");
+            Console.WriteLine($"{user_3,6}  {hex_3,6}");
+            Console.WriteLine($"{user_4,6}  {hex_4,6}");
 
 
         }
